@@ -219,6 +219,18 @@ hr {
     color: white;
 }
 
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+}
+.user-photo{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
 .movie-catalogue-title{
     font-size: 3rem;
     color: white;
