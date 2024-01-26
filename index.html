@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Catalogue</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-flex">
+        <section class="sidebar">
+            <div class="logo-container">
+                <i class="glyphicon glyphicon-film"></i>
+                <h1 class="logo">MEDIA APP</h1>
+            </div>
+            <nav class="movie-category-nav">
+                <div class="category-flex">
+                    <a href="#">New Releases</a>
+                </div>
+                <div class="category-flex">
+                    <a href="#">Trending</a>
+                </div>
+                <div class="category-flex">
+                    <a href="#">Coming Soon</a>
+                </div>
+                <div class="category-flex">
+                    <a href="#">Favorites</a>
+                    <p>&#x2192;</p>
+                </div>
+                <div class="category-flex">
+                    <a href="#">Watch Later</a>
+                </div>
+            </nav>
+            <hr>
+            <div class="last-activity">
+                <div class="last-activity-title">
+                    <h2>LAST ACTIVITY</h2>
+                    <h2 class="notification-count">3</h2>
+                </div>
+                <div class="last-activity-flex">
+                    <div class="last-activity-notification">
+                        <img src="img/richard.jpg" alt="">
+                        <div class="last-activity-msg-flex">
+                            <p class="notification-msg"><a href="#">Richard Weaver</a> wants to be your friend</p>
+                            <p class="notification-time">32 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="last-activity-notification">
+                        <img src="img/jelena.jpg" alt="">
+                        <div class="last-activity-msg-flex">
+                            <p class="notification-msg"><a href="#">Jelena Fortes</a> has recommended you: <a href="#">Spirited Away</a></p>
+                            <p class="notification-time">13 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="last-activity-notification">
+                        <img src="img/mike.png" alt="">
+                        <div class="last-activity-msg-flex">
+                            <p class="notification-msg"><a href="#">Mike Schmidt</a> has recommended you: <a href="#">Dances with Wolves</a></p>
+                            <p class="notification-time">2 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="movie-catalogue">
+            <div class="nav-bar">
+                <i class="glyphicon glyphicon-search"></i>
+                <input type="text" placeholder="Search movies">
+                <a href="#">Adam Schmidt</a>
+            </div>
+
+            <h2 class="movie-catalogue-title">Favorites</h2>
+
+            <div class="movie-catalogue-flex">
+                <div class="movie-thumbnail">
+                    <p class="movie-rating">9.6</p>
+                    <img src="img/movie1.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Spirited Away</p>
+                    <p class="movie-genres">Animation, Fantasy</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating">9.1</p>
+                    <img src="img/movie2.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Shawshank Redemption</p>
+                    <p class="movie-genres">Drama</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating">9.6</p>
+                    <img src="img/movie3.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Monty Python and the Holy Grail</p>
+                    <p class="movie-genres">Comedy</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating avg">7.5</p>
+                    <img src="img/movie4.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Moulin Rouge</p>
+                    <p class="movie-genres">Musical, Drama</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating">9.5</p>
+                    <img src="img/movie5.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">One Piece Film: Red</p>
+                    <p class="movie-genres">Animation, Adventure</p>
+                </div>
+            </div>
+
+            <div class="movie-catalogue-flex">
+                <div class="movie-thumbnail">
+                    <p class="movie-rating avg">7.9</p>
+                    <img src="img/movie6.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Gladiator</p>
+                    <p class="movie-genres">History, Drama</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating">9.7</p>
+                    <img src="img/movie7.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Good Will Hunting</p>
+                    <p class="movie-genres">Drama, Romance</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating avg">7.6</p>
+                    <img src="img/movie8.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Hook</p>
+                    <p class="movie-genres">Comedy, Fantasy</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating">8.7</p>
+                    <img src="img/movie9.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">Army of Darkness</p>
+                    <p class="movie-genres">Comedy, Dark</p>
+                </div>
+                <div class="movie-thumbnail">
+                    <p class="movie-rating bad">6.6</p>
+                    <img src="img/movie10.jpg" alt="" class="movie-thumbnail">
+                    <p class="movie-title">21</p>
+                    <p class="movie-genres">Heist, Drama</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
